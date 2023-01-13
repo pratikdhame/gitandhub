@@ -2,3 +2,12 @@ pwd
 touch filename.txt
 git status
 git init
+git add .    <----------- (.) is used to incude hole folder
+git restore --staged filename <-------- stage the file
+git commit -m "yourmessage"  <--------- (-m) used to add custom message
+git reset #hashid   <-------- #hashid is address from git log
+git stash         <------------ save current scenario
+git stash pop     <------------ bring files back 
+git stash clean   <------------ remove staged files
+git remote add origin <-------- to connect folder to github repository
+git remote -v
