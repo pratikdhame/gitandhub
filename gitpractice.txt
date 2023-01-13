@@ -1,0 +1,4 @@
+pwd
+touch filename.txt
+git status
+git init
